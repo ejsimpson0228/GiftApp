@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADjC3n8hvNEujXAH2jtqn/AAAAAACAAAAAAAQZgAAAAEAACAAAACgM0KeCt2n8zVwsVXiELTN57fHyP+QUS7Jvdf2sc0EJgAAAAAOgAAAAAIAACAAAAC1ZQmKaXGFwJ++tWQu8DlV8n20smzU28jkP9D7XRI8aSAAAADdHOlQ3CKJ06QVB8eFKcEXjQzoKxGSNVYIv5xhVvUJ9EAAAAAMmhGC5g60gy3NPRxQtOrAicWnAa4SYlGEJrqZc15V/6XoVkQrpWdjmVm5fY6g4u/8NJkHANxophV3e+Sssv/w</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Data Source=SQL7005.site4now.net%3bInitial Catalog=DB_A47C1A_GiftApp%3bUser Id=DB_A47C1A_GiftApp_admin%3bPassword=63rMQEXmMmcZTQj%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="GiftAppWebAPI.Models.DatabaseContext">
+      <Value>Data Source=SQL7005.site4now.net%3bInitial Catalog=DB_A47C1A_GiftApp%3bUser Id=DB_A47C1A_GiftApp_admin%3bPassword=63rMQEXmMmcZTQj%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+<div class="container-fluid sticky">
+    <div class="row" [@subNavbarEntry]>
+      <div class="container col-md-7 d-flex justify-content-center mt-2 nav-box">
+        <a class="nav-link nav-box-right" [routerLink]="['/dashboard/receivedgifts']" routerLinkActive="router-link-active">Received Gifts</a>
+        <a class="nav-link" [routerLink]="['/dashboard/givengifts']" routerLinkActive="router-link-active">Giving Hub</a>
+        <a class="nav-link nav-box-left" [routerLink]="['/dashboard/friends']" routerLinkActive="router-link-active">Manage Friends</a>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-12">
+        <app-alert></app-alert>
+      </div>
+    </div>
+</div><br>
+

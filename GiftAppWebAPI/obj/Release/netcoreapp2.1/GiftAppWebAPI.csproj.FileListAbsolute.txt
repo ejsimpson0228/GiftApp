@@ -1,0 +1,16 @@
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\GiftAppWebAPI.deps.json
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\GiftAppWebAPI.runtimeconfig.json
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\GiftAppWebAPI.runtimeconfig.dev.json
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\GiftAppWebAPI.dll
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\GiftAppWebAPI.pdb
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.csprojAssemblyReference.cache
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.RazorAssemblyInfo.cache
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.RazorAssemblyInfo.cs
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.AssemblyInfoInputs.cache
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.AssemblyInfo.cs
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.dll
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.pdb
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\appsettings.Development.json
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\appsettings.json
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\Properties\launchSettings.json

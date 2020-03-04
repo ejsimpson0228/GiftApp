@@ -1,0 +1,20 @@
+.my-gift-card-header {
+    background-color: rgb(21, 54, 21);
+    color: white;
+}
+
+.my-gift-card-body, .my-request-body {
+    background-color: #FEE1C0;
+}
+
+
+
+.gift-icon {
+    color: #FB5037;
+}
+
+.gift-card:hover {
+    transition-duration: 0.5s;
+    transform: scale(1.1);
+}
+

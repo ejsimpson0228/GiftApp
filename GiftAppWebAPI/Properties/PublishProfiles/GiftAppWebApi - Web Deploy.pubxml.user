@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAARGppzWVaf020YYyVccOlsgAAAAACAAAAAAAQZgAAAAEAACAAAACEu9uD48nWyA2v4THSKj1sQL5G7drCwO6X1Sms/hAEWwAAAAAOgAAAAAIAACAAAAAdXtKbDGGfma73/LRj0YG486U0UbLn61fkJIFQQqpC+4AAAAApsGQWfWB5bZz05duvrbMoirmaBZXWpKq8+AHlXcs+PJoB97JdU344BIHQdepmTGQPKQwDT54ReO2HzIwpw4SH+0nCdaSp/Zbx3OePrr8w1cPakbWoAkKKnJqaQllZeo2D7qGRQdCOVz59XCtfmB2WuI7N8k5u+BWjsl+wariUbUAAAACen33zES3I9afcsXwt6pmriNg0G5nEl3/h/8zojAI2Jh1p4qaOzk3ZzVMw4bdjbM+ZVWuMVhv7joR0hHa3K9v9</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="GiftAppWebAPI.Models.DatabaseContext">
+      <Value>Server=tcp:ejdevsvr.database.windows.net,1433%3bInitial Catalog=GiftApp_db%3bPersist Security Info=False%3bUser ID=ejsimpson0228%3bPassword=63rMQEXmMmcZTQj%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

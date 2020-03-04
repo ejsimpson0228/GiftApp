@@ -1,0 +1,9 @@
+<div class="alert">
+    <ngb-alert 
+        [dismissible]="false" 
+        *ngIf="showAlert" 
+        [class]="alert.cssClass">
+        <br><p class="d-flex justify-content-center d-flex align-items-center">{{ alert.message }}</p>
+    </ngb-alert>
+</div>
+

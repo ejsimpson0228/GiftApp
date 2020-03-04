@@ -1,0 +1,48 @@
+Steps to finish GiftApp	
+	On Giving Hub page:
+		x Fix bug where friend name disappears
+		xFinish feature to adjust quantity of gifts
+			xSolve default form values problem
+		xGet message that there are no gifts working
+		xRemove friend functionality
+	Make Friend Management page
+		xFeature to accept incoming friend requests
+		xFeature to search for friends
+			xNeed a data object to send back from the api to the UI
+		xFeature to cancel sent requests
+	Validation
+		xRegister new user - cannot have duplicate username
+		xPassword Incorrect Error for login
+		Refine the user search
+		***need to go through the application to fill out this portion
+		Add server side validation to api
+	Styling
+		xNicer alerts
+		xColor scheme throughout application
+		Any other animations
+		Decide on menu navigation
+		Add Favicon
+	Implement logging system for exceptions
+	xRedirect if user navigates to login page while logged in
+	
+	
+	Things for 10/9
+		xDelete Base service since you learned about environment variables
+		xRefactor registration form
+
+
+
+
+
+
+
+Colors:
+	Gold: #c28f1f
+	Green: #505e52
+	Red: #c23c49
+	
+New colors:
+	Green:  rgb(21, 54, 21);
+	Red: #FB5037
+	blue: #2A8CFB rgb(42,140,251)
+	tan: #FEE1C0

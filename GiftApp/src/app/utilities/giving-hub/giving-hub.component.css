@@ -1,0 +1,16 @@
+.requested-item{
+    background-color: #FEE1C0;
+}
+
+.list-batch {
+    background-color: rgba(21, 54, 21, 0.5);
+}
+
+.friend-list-item {
+    background-color: #FEE1C0;
+}
+
+.friend-list-item:hover {
+    cursor: pointer;
+    background-color: #FCC569;
+}

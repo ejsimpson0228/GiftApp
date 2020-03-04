@@ -1,0 +1,15 @@
+a {
+    color: white;
+    font-size: 20px;
+}
+
+.nav-box {
+    background-color: gray;
+    z-index: 10;
+}
+
+
+
+.router-link-active {
+    background-color: #2A8CFB;
+}

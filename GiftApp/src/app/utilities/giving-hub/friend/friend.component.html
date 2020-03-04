@@ -1,0 +1,23 @@
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="dark-text text-header">Friends</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-group list-batch">
+                    <div *ngFor="let friend of friends">
+                        <li class="list-group-item m-1 friend-list-item" (click)="openFriend(friend)">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <p>{{ friend.userName }}</p>
+                                </div>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+

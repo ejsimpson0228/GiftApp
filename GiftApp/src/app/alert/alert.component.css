@@ -1,0 +1,31 @@
+.success-alert {
+    height: 75px;
+    width: 40%;
+    background-color:rgba(42,140,251, 0.5);
+    color: white;
+    font-size: large;
+    border: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(42,140,251);
+}
+
+.error-alert {
+    height: 75px;
+    width: 40%;
+    background-color:rgba(251,80,55, 0.5);
+    color:  black;
+    font-size: large;
+    border: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: rgb(251,80,55)
+}
+
+.alert {
+    position: fixed; 
+    top: 47px;
+    right: -550px;
+    width: 1000px;
+    z-index: 100;
+}

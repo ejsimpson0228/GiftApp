@@ -1,0 +1,27 @@
+.btn-give {
+    background-color: #2A8CFB;
+    color: white;
+}
+
+.btn-edit {
+    background-color: rgb(21, 54, 21);
+    color: white;
+}
+
+.btn-delete {
+    background-color: #FB5037;
+    color: white;
+}
+
+.gift-list {
+    background-color: rgba(55, 128, 251, 0.5);
+}
+
+.gift-list-item {
+    background-color: #FEE1C0;
+}
+
+#back:hover {
+    cursor: pointer;
+    color: #FB5037;
+}

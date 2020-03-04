@@ -1,0 +1,25 @@
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="dark-text text-header">Upcoming Requests</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="list-group list-batch">
+                    <li class="list-group-item requested-item m-1" *ngFor="let requestedGift of requestedGifts">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>Requested By: </strong>{{ requestedGift.gift.receiverUsername }}</p>
+                                <p><strong>Requested Date: </strong>{{ requestedGift.dateRequested | date: 'shortDate' }}</p>
+                            </div>
+                            <div class="col-md-6">
+                                {{ requestedGift.gift.name }}
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+

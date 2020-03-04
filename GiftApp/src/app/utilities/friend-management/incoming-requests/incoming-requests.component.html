@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="dark-text text-header">Incoming Requests</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <table class="table table-hover friend-table">
+                <tbody>
+                    <tr *ngFor="let request of IncomingRequests; let i = index">
+                        <td class="white-text">{{ request.usernameFrom }}</td>
+                        <td class="d-flex justify-content-end">
+                            <button class="btn btn-claim mr-2" (click)="confirmRequest(request.id)">Accept</button>
+                            <button class="btn btn-cancel" (click)="declineRequest(request.id, i)">Decline</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

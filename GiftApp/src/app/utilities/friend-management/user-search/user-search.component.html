@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-12">
+        <form [formGroup]="searchFriendForm" (ngSubmit)="onSubmit()">
+            <div class="input-group d-flex justify-content-center">
+                <div class="input-group-prepend">
+                    <span class="input-group-text">Send a friend request</span>
+                </div>
+                <input type="text" class="search-input" formControlName="UsernameTo" placeholder="Type exact username here">
+                <div class="input-group-append">
+                    <button class="btn btn-confirm" type="submit">Send</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+

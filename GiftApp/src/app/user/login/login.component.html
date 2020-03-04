@@ -1,0 +1,26 @@
+<br />
+<div class="row justify-content-md-center dark-text">
+  <div class="col-md-8">
+    <form [formGroup]="loginForm" class="mb-4" autocomplete="off" (submit)="onSubmit()">
+      <div class="form-group">
+        <label for="UserName">Username</label>
+        <input class="form-control" name="UserName" id="UserName" placeholder="Username" formControlName="username">
+        <span class="help-block warning-text" *ngIf="!loginForm.get('username').valid && loginForm.get('username').touched && loginForm.get('username').errors.required">
+          Username is required
+        </span>
+      </div>
+      <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="password" class="form-control" name="Password" id="Password" placeholder="Password" formControlName="password" >
+        <span class="help-block warning-text" *ngIf="!loginForm.get('password').valid && loginForm.get('password').touched && loginForm.get('password').errors.required">
+          Password is required
+        </span>
+      </div>
+      <br>
+      <div class="form-row">
+        <button class="btn btn-lg btn-confirm btn-block" type="submit" [disabled]="loginForm.invalid">Sign In</button>
+      </div>
+    </form>
+  </div>
+</div>
+

@@ -1,0 +1,20 @@
+.white-text {
+    color: white;
+}
+
+.white-underline {
+    border-bottom: 1px;
+    border-bottom-color: white;
+}
+
+.friend-table {
+    background-color: rgb(21, 54, 21, 0.5);
+}
+
+.sent-table {
+    background-color: #FEE1C0;
+}
+
+.sent-requests-bg {
+    background-color: rgba(21, 54, 21, 0.5);
+}

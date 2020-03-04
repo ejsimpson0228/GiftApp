@@ -1,0 +1,28 @@
+.login-wrapper {
+    background-color: gray;
+}
+
+:host ::ng-deep .tabset1 a.nav-link {
+    color: #343a40;
+    border: solid;
+    border-width: 2px;
+    border-color: rgb(21, 54, 21);
+}
+
+
+
+:host ::ng-deep .tabset1 a.nav-link.active {
+    color: white;
+    background-color:  rgb(21, 54, 21);
+}
+
+.user-sign-in {
+    border: solid;
+    border-top: none;
+    border-width: 2px;
+    border-color:rgb(21, 54, 21);
+    border-bottom-left-radius: 2.5%;
+    border-bottom-right-radius: 2.5%;
+    height: 550px;
+    background-color: rgba(14, 36, 14, 0.5);
+}

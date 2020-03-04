@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <br>
+            <app-user-search (friendRequestSent)=onFriendRequestSent($event)></app-user-search>
+        </div>
+    </div>
+</div>
+<br><hr>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <app-incoming-requests [IncomingRequests]="receivedFriendRequests"></app-incoming-requests>
+        </div>
+        <div class="col-md-4">
+            <app-sent-requests [SentRequests]="sentFriendRequests"></app-sent-requests>
+        </div>
+    </div>
+</div>
+

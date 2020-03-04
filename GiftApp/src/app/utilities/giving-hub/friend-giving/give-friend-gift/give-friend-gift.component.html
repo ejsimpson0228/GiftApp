@@ -1,0 +1,25 @@
+
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="dark-text">Give New Gift</h2>
+        </div>
+    </div>
+    <div class="row">
+        <form [formGroup]="giveGiftForm" (ngSubmit)="onSubmit()">
+            <div class="form-row dark-text">
+                <div class="form-group col-md-7">
+                    <input class="form-control" type="text" id="giftName" formControlName="GiftName">
+                    <label for="giftName">Gift Name</label>
+                </div>
+                <div class="col-md-2">
+                    <input class="form-control" type="text" id="quantity" formControlName="Quantity">
+                    <label for="quantity">Quantity</label>
+                    <!-- <input hidden [(ngModel)]="friend.userName" formControlName="ReceiverUserName"> don't do this again sir -->
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-give" type="submit">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+

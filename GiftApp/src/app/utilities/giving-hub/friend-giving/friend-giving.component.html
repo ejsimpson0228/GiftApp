@@ -1,0 +1,23 @@
+<div class="container">
+    <p id="back" class="dark-text" (click)="return()">--back</p>
+    <div class="row">
+        <div class="col-md-12 d-flex justify-content-center">
+            <h1 class="dark-text text-header mb-4">Gifts for {{ friend.userName }}</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <app-friend-gifts
+                [friend]="friend"
+                [friendGifts]="giftsGivenToUser">
+            </app-friend-gifts>
+        </div>
+        <div class="col-md-6">
+            <app-give-friend-gift
+                [friend]="friend"
+                (giftGiven)="onNewGiftGiven($event)"
+                ></app-give-friend-gift>
+        </div>
+    </div>
+</div>
+

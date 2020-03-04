@@ -1,0 +1,17 @@
+<h1 class="dark-text text-header mb-4">Your Requests</h1>
+    <div  >
+        <ul class="list-group" [@claimedGiftsEntry]="requestedGifts">
+            <li class="list-group-item my-request-body mb-3" *ngFor="let request of requestedGifts" >
+                <div class="row">
+                    <div class="col-md-8">
+                        <p><strong>{{ request.gift.name }}</strong></p>
+                        <p>From: {{ request.gift.giverUsername }}</p>
+                        <p>Requested for {{ request.dateRequested | date: 'shortDate' }}</p>
+                    </div>
+                    <div class="col-md-4 d-flex align-items-md-center">
+                        <button class="btn btn-cancel" (click)="cancelGiftRequest({id: request.gift.id, date: request.dateRequested})">Cancel</button>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>

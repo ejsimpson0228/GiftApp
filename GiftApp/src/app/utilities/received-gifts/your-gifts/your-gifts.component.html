@@ -1,0 +1,33 @@
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="dark-text text-header">Your Gifts</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container" [@yourGiftsEntry]="receivedGifts">
+        <div class="row">
+            <div class="col-md-5 m-4" *ngFor="let gift of receivedGifts" >
+                <div class="card gift-card">
+                    <div class="card-header my-gift-card-header">
+                        <div class="row mb-0">
+                            <div class="col-md-2 d-flex align-items-center">
+                                <fa-icon [icon]="faGift" class="gift-icon" size="2x" [spin]="false"></fa-icon>
+                            </div>
+                            <div class="col-md-10">
+                                <h5 class="card-title">{{ gift.name }}</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body my-gift-card-body">
+                        <div class="col-md-12"><h6>From: {{ gift.giverUsername }}</h6></div>
+                        <div class="col-md-12"><p>Quantity: {{ gift.quantity }}</p></div>
+                        <div class="col-md-12">
+                            <button class="btn btn-claim" (click)="open(gift)">Claim Gift</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>

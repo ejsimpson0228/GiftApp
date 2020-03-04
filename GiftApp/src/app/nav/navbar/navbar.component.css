@@ -1,0 +1,12 @@
+.sticky {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 5;
+    width: 75%;
+}
+
+.btn-logout {
+    color: white;
+    background-color: #FB5037;
+}

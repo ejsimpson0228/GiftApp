@@ -1,0 +1,54 @@
+
+body {
+    background-image: url('assets/img/background.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-img-landing {
+    background-image: url('assets/img/splash-background.jpg');
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.white-text {
+    color: white;
+}
+
+.dark-text {
+    color: #343a40;
+}
+
+.text-header {
+    border-bottom: 1px solid #343a40;
+}
+
+.warning-text {
+    color: #750012;
+    font: bold !important;
+}
+
+.btn.btn-confirm {
+    color: white;
+    background-color:  rgb(21, 54, 21);
+}
+
+.btn.btn-claim {
+    background-color: #2A8CFB;
+    color: white;
+}
+
+.btn.btn-cancel {
+    color: white;
+    background-color: #FB5037;
+}
+
+.btn:disabled {
+    opacity: 0.3;
+}

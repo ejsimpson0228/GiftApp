@@ -1,0 +1,19 @@
+<div class="containter-fluid">
+    <div *ngIf="!viewFriendGiving">
+        <div class="row">
+            <div class="col-md-8">
+                <app-given-gift></app-given-gift>
+            </div>
+            <div class="col-md-4">
+                <app-friend (friendSelected)="friendGivingView($event)"></app-friend>
+            </div>
+        </div>
+    </div>
+    <div *ngIf="viewFriendGiving">
+        <app-friend-giving 
+            [friend]="friendToView"
+            (goBack)="backToHubView()"
+        ></app-friend-giving>
+    </div>
+</div>
+    
