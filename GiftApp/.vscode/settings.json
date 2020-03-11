@@ -1,3 +1,5 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "appService.defaultWebAppToDeploy": "/subscriptions/92406c96-a840-4be5-9cf2-8dd867fec828/resourceGroups/LibraryManagementSystem/providers/Microsoft.Web/sites/GiftApp",
+    "appService.deploySubpath": "dist\\GiftApp"
 }

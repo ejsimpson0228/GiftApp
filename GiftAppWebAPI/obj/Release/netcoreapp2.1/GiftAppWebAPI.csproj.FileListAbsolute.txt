@@ -14,3 +14,5 @@ C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWe
 C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\appsettings.Development.json
 C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\appsettings.json
 C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftAppWebAPI\GiftAppWebAPI\bin\Release\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftApp\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.dll
+C:\Users\ejsim\OneDrive\Documents\Repos\PersonalProjects\GiftApp\GiftAppWebAPI\obj\Release\netcoreapp2.1\GiftAppWebAPI.pdb
