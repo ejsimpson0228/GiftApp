@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using GiftAppWebAPI.Data.Interfaces;
 using GiftAppWebAPI.Models.Auth;
 using GiftAppWebAPI.Models.DTOs;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -28,7 +29,7 @@ namespace GiftAppWebAPI.Controllers
 
         [HttpGet]
         [Route("MyFriends")]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<Object> GetFriends()
         {
             var user = await GetUser();
@@ -38,7 +39,7 @@ namespace GiftAppWebAPI.Controllers
 
         [HttpGet]
         [Route("Requests")]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<Object> GetFriendRequests()
         {
             var user = await GetUser();
@@ -48,7 +49,7 @@ namespace GiftAppWebAPI.Controllers
 
         [HttpGet]
         [Route("SentRequests")]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<Object> GetSentFriendRequests()
         {
             var user = await GetUser();
@@ -58,7 +59,7 @@ namespace GiftAppWebAPI.Controllers
 
         [HttpPost]
         [Route("SendRequest/{usernameTo}")]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult> SendFriendRequest(string usernameTo)
         {
             var user = await GetUser();
@@ -86,7 +87,7 @@ namespace GiftAppWebAPI.Controllers
 
         [HttpDelete]
         [Route("Cancel/{requestId}")]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult> CancelSentFriendRequest(int requestId)
         {
             var user = await GetUser();
@@ -99,7 +100,7 @@ namespace GiftAppWebAPI.Controllers
 
         [HttpDelete]
         [Route("Decline/{requestId}")]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult> DeclineReceivedFriendRequest(int requestId)
         {
             var user = await GetUser();
@@ -112,7 +113,7 @@ namespace GiftAppWebAPI.Controllers
 
         [HttpPost]
         [Route("Confirm/{requestId}")]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<ActionResult> ConfirmFriendRequest(int requestId)
         {
             var user = await GetUser();

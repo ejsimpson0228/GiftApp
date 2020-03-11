@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftAppWebAPI\\GiftAppWebAPI\\GiftAppWebAPI.csproj": {}
+    "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftApp\\GiftAppWebAPI\\GiftAppWebAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftAppWebAPI\\GiftAppWebAPI\\GiftAppWebAPI.csproj": {
+    "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftApp\\GiftAppWebAPI\\GiftAppWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftAppWebAPI\\GiftAppWebAPI\\GiftAppWebAPI.csproj",
+        "projectUniqueName": "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftApp\\GiftAppWebAPI\\GiftAppWebAPI.csproj",
         "projectName": "GiftAppWebAPI",
-        "projectPath": "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftAppWebAPI\\GiftAppWebAPI\\GiftAppWebAPI.csproj",
+        "projectPath": "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftApp\\GiftAppWebAPI\\GiftAppWebAPI.csproj",
         "packagesPath": "C:\\Users\\ejsim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftAppWebAPI\\GiftAppWebAPI\\obj\\",
+        "outputPath": "C:\\Users\\ejsim\\OneDrive\\Documents\\Repos\\PersonalProjects\\GiftApp\\GiftAppWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

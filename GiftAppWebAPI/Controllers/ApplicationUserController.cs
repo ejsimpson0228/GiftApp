@@ -99,25 +99,6 @@ namespace GiftAppWebAPI.Controllers
             
         }
 
-        // Get rid of this
-        //[HttpGet]
-        //[HttpOptions]
-        //[Route("Usernames")]
-        //public async Task<List<string>> GetUsernames(string username)
-        //{
-        //    try
-        //    {
-        //        var usernames = await _userRepo.GetUsernames();
-
-        //        return usernames;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        _loggingRepo.Log(new Log { Message = ex.Message, Date = DateTime.Now });
-        //        return null;
-        //    }
-        //}
-
         
     }
 }

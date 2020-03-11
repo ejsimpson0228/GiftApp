@@ -10,6 +10,7 @@ export class GiftService {
   constructor(private http: HttpClient) { }
 
   getUserGifts() {
+    console.log(environment.baseUrl);
     return this.http.get(environment.baseUrl + 'gifts/mygifts');
   }
 

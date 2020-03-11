@@ -13,7 +13,6 @@ import { Gift } from 'src/app/_models/gift';
 export class RequestGiftModalComponent implements OnInit {
   gift: Gift;
   requestGiftForm = new FormGroup({
-    GiftId: new FormControl(this.gift.id),
     DateRequested: new FormControl('', Validators.required)
   });
 
@@ -28,7 +27,6 @@ export class RequestGiftModalComponent implements OnInit {
 
   onSubmit() {
     this.requestGiftForm.addControl('GiftId', new FormControl(this.gift.id));
-    console.log(this.requestGiftForm.value);
     this.giftService.requestGift(this.requestGiftForm.value).subscribe(
       data => {
         this.activeModal.close();

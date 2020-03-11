@@ -6,6 +6,7 @@ using GiftAppWebAPI.Data.Interfaces;
 using GiftAppWebAPI.Models.Application;
 using GiftAppWebAPI.Models.Auth;
 using GiftAppWebAPI.Models.DTOs;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -26,7 +27,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("MyGifts")]
         public async Task<Object> GetMyGifts()
         {
@@ -36,7 +37,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("MyRequestedGifts")]
         public async Task<Object> GetMyRequestedGifts()
         {
@@ -47,7 +48,7 @@ namespace GiftAppWebAPI.Controllers
 
 
         [HttpGet]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("GiftsGiven")]
         public async Task<Object> GetGivenGifts()
         {
@@ -57,7 +58,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("GiftsGivenTo/{usernameTo}")]
         public async Task<List<Gift>> GetGivenGiftsToPerson(string usernameTo)
         {
@@ -69,7 +70,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("Requests")]
         public async Task<Object> GetTheirRequestedGifts()
         {
@@ -79,7 +80,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpPost]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("Give")]
         public async Task<ActionResult> GiveGift(NewGiftDTO newGiftDTO)
         {
@@ -101,7 +102,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpPut]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("Edit")]
         public async Task<ActionResult> EditGift(EditGiftDTO editGiftDTO)
         {
@@ -114,7 +115,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpPut]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("AddQuantity")]
         public async Task<ActionResult> AddQuantity(AddQuantityDTO addQuantityDTO)
         {
@@ -127,7 +128,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpDelete]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("Delete/{giftId}")]
         public async Task<ActionResult> DeleteGift(int giftId)
         {
@@ -139,7 +140,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpPost]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("Request")]
         public async Task<ActionResult> RequestGift(GiftToGiveDTO giftToGive)
         {
@@ -151,7 +152,7 @@ namespace GiftAppWebAPI.Controllers
         }
 
         [HttpPut]
-        [Authorize]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Route("Cancel")]
         public async Task<ActionResult> CancelGiftRequest(CancelGiftRequestDTO cancelRequest)
         {

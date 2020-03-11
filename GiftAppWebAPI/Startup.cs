@@ -115,8 +115,8 @@ namespace GiftAppWebAPI
             app.UseCors(builder =>
                 builder
                 .AllowAnyOrigin()
-                //.AllowAnyHeader()
-                //.AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowAnyMethod()
                 //.AllowCredentials()
              );
 
